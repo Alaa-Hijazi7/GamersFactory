@@ -1,0 +1,36 @@
+{
+  "name": "gamestars-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "dependencies": {
+    "@iconify/icons-logos": "^1.1.10",
+    "@iconify/icons-mdi": "^1.1.15",
+    "axios": "^0.21.1",
+    "next": "latest",
+    "next-fonts": "^1.5.1",
+    "next-images": "^1.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-is": "^17.0.2",
+    "react-loading-skeleton": "^2.2.0",
+    "react-modal": "^3.14.3",
+    "react-tooltip": "^4.2.21",
+    "socket.io-client": "^4.1.2",
+    "styled-components": "^5.2.3",
+    "sweetalert2": "^11.0.12",
+    "swiper": "^6.7.1"
+  },
+  "devDependencies": {
+    "@iconify/react": "^3.0.0-alpha.1",
+    "babel-plugin-styled-components": "^1.12.0"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  },
+  "license": "MIT"
+}
