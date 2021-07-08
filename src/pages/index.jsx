@@ -44,7 +44,6 @@ export default function Home() {
   const [games, setGames] = useState([]);
   const [groups, setGroups] = useState([]);
   const [createRoom, setCreateRoom] = useState(false);
-  const [messages, setMessages] = useState({});
   const socket = useMemo(() => io(axios.defaults.baseURL, { auth: { token: state.token } }), [state.token]);
 
   const router = useRouter();
