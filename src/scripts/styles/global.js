@@ -12,6 +12,9 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #10141D;
     overflow: hidden;
   }
+  img {
+    object-fit: cover;
+  }
     /* width */
   ::-webkit-scrollbar {
     width: 10px;
